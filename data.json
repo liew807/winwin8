@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "$2a$10$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123",
+      "isAdmin": true,
+      "is_admin": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "测试商品1",
+      "price": 99.99,
+      "description": "这是一个测试商品",
+      "image": "https://via.placeholder.com/300x200?text=商品1",
+      "createdAt": "2025-01-15T10:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "测试商品2",
+      "price": 199.99,
+      "description": "这是另一个测试商品",
+      "image": "https://via.placeholder.com/300x200?text=商品2",
+      "createdAt": "2025-01-16T14:20:00.000Z"
+    }
+  ],
+  "orders": [],
+  "settings": {
+    "storeName": "CPMCY商城",
+    "kuaishouLink": "https://v.kuaishou.com/JGv00n48",
+    "contactInfo": "FB账号GH Tree",
+    "welcomeMessage": "欢迎选购！点击购买扫码完成付款"
+  }
+}
